@@ -7,6 +7,15 @@ img{
 }
 
 body{
+    background-image: url("img/bg_001.jpg");
+    text-align: center;
+    color:beige;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(245, 231, 220);
+
     background-color:beige;
 }
 

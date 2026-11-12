@@ -7,3 +7,24 @@ img{
 body{
     background-color:beige;
 }
+
+.flavors {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.flavor {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.233);
+}
+.flavor a {
+    color: black;
+    text-decoration: none;
+}

@@ -7,3 +7,30 @@ img{
 body{
     background-color:beige;
 }
+
+.flavor-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.flavor {
+    text-align: center;
+}
+
+.flavor img {
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.flavor a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flavor p {
+    font-weight: bold;
+}
